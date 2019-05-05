@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="1" parallel="none" configfailurepolicy="continue" >
+
+<listeners>
+	<listener class-name="com_movii_commons.Fail_Listner" />
+</listeners>	
+ <test name="Test1">
+ <classes>
+ <class name="com_movii_tests.Movii_Login_Test"/>
+ <class name="com_movii_tests.Moviired_Login_Test"/>
+ <class name="com_movii_tests.Movii_Unsuccessfull_login_Test"/>
+ <class name="com_movii_tests.Movii_Three_Unsuccessful_login_Test"/>
+ <class name="com_movii_tests.Movii_Password_Reset_Test"/>
+ <class name="com_movii_tests.Movii_Inactive_Session_Test"/>
+ <class name="com_movii_tests.Movii_Logout_Test"/> 
+ <class name="com_movii_tests.Movii_Tudinero_CheckBalance_Test"/>
+ <class name="com_movii_tests.Movii_TuDinero_Successful_transaction"/>
+ <class name="com_movii_tests.Movii_TuDinero_Unsuccessful_trans"/>
+ <class name="com_movii_tests.Movii_recharge_cellular"/>
+ <class name="com_movii_tests.send_money_more_1000_COP"/>
+ <class name="com_movii_tests.Moviired_Web_Login_Test"/>
+ <class name="com_movii_tests.Moviired_Web_Logout_Test"/>
+ <class name="com_movii_tests.Moviired_Web_Unsuccessful_Login_Test"/>
+ <class name="com_movii_tests.Moviired_Web_Reset_Pwd"/>
+ <class name="com_movii_tests.Moviired_Web_MiCuenta_Test"/>
+ <class name="com_movii_tests.Moviired_Web_MisDatos_Test"/>
+ <class name="com_movii_tests.Moviired_Web_Cargar_EN_Linea"/>
+ <class name="com_movii_tests.Moviired_Web_CargarENLinea_dollor_Test"/>
+ <class name="com_movii_tests.Moviired_Web_SucessfullRecargas_cellular_Test"/>
+ <class name="com_movii_tests.Moviired_Web_UnSucessfullRecargas_cellular_Test"/>
+ <class name="com_movii_tests.Moviired_Web_Recargas_DataPackets_Test"/>
+ <class name="com_movii_tests.Moviired_Web_Recargas_VoicePackets_Test"/>
+ <class name="com_movii_tests.Moviired_Web_Recargas_Voz_DataPackets_Test"/>
+ <class name="com_movii_tests.Moviired_Web_Pagos_facturas_Busquedap_Categoria_Test"/>
+ <class name="com_movii_tests.Movii_RecargarCelular_Paquetes_Datos"/>
+  <class name="com_movii_tests.Movii_RecargarCelular_Paquetes_Voz"/>
+   <class name="com_movii_tests.Movii_RecargarCelular_Paquetes_Voz_Datos"/>
+ 
+ </classes>
+ </test> <!-- Test -->
+</suite> <!-- Suite -->
+
